@@ -1,44 +1,65 @@
-/* Stilizacija <p> elementa */
-p {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333; /* Crna boja teksta */
-  background-color: #f7f7f7; /* Siva pozadina */
-  margin: 10px 0; /* Vanjski margini */
-  padding: 10px; /* Unutarnji padding */
-  border: 1px solid #ccc; /* Tanki sivi rub */
-}
-
-/* Stilizacija <body> elementa */
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333; /* Crna boja teksta */
-}
-
-/* Stilizacija <h> elementa */
-h1, h2 {
-  font-family: Arial, sans-serif;
-  color: #444; /* Tamnosiva boja teksta */
-}
-
-/* Stilizacija <a> elementa */
-a {
-  color: #007bff; /* Plava boja teksta */
-  text-decoration: none; /* Bez podvlake */
-}
-
-a:hover {
-  text-decoration: underline; /* Podvlaka na hover */
-}
-
-/* Stilizacija <div> elementa */
-#container {
-  width: 80%; /* Širina kontejnera */
-  margin: 0 auto; /* Centralno pozicioniranje */
-  background-color: #fff; /* Bijela pozadina */
-  padding: 20px; /* Unutarnji padding */
-  border: 1px solid #ccc; /* Tanki sivi rub */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">    
+  <title>Page Title</title>
+  <link href="stil.css" rel="stylesheet">
+  <script src="js.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph.</p>
+  <p title="Tooltip primjer">Hello, World!</p>
+  <h2>My First JavaScript</h2>
+  <button onclick="pozdrav()">Pokreni JS funkciju</button>
+  
+  <pre>This is a preformatted text block.</pre>
+  
+  <h1>This is a section heading</h1>
+  
+  <p>This is another paragraph.</p>
+  
+  <ol>
+    <li>Ordered List Item 1</li>
+    <li>Ordered List Item 2</li>
+    <li>Ordered List Item 3</li>
+  </ol>
+  
+  <ul>
+    <li>Unordered List Item 1</li>
+    <li>Unordered List Item 2</li>
+    <li>Unordered List Item 3</li>
+  </ul>
+  
+  <dl>
+    <dt>Definition Term 1</dt>
+    <dd>Definition Description 1</dd>
+    <dt>Definition Term 2</dt>
+    <dd>Definition Description 2</dd>
+  </dl>
+  
+  <a href="https://www.mev.hr/" target="_blank">Međimursko veleučilište u Čakovcu</a>
+  
+  <img src="mev-logo.png" alt="Ikona Međimurskog veleučilišta u Čakovcu" width="100" height="100">
+  
+  <table>
+	<tr>
+      <td>Student 1</td>
+      <td>Ivan Horvat</td>
+    </tr>
+	    <tr>
+      <td>Student 2</td>
+      <td>Marko Marić</td>
+    </tr>
+    <tr>
+      <td>Student 3</td>
+      <td>Ana Anić</td>
+    </tr>
+    <tr>
+      <td>Student 4</td>
+      <td>Ivo Ivić</td>
+    </tr>
+  </table>
+</body>
+</html>
