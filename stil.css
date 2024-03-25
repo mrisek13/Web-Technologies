@@ -1,5 +1,8 @@
 body {
-	background-color: lightblue;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
   
 p {
@@ -10,12 +13,6 @@ p {
   margin: 25px 0;
   padding: 2px;
   border: 10px solid #ccc;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
 }
 
 h1, h2 {
