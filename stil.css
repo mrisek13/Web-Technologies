@@ -29,21 +29,16 @@ a {
 
 a:hover {
   text-decoration:underline;
-  color:whitesmoke
 }
 
 header {
   background-color: #020024;
-  color: #fff;
   padding: 20px;
-  text-align: center;
 }
 
 footer {
   background-color: #020024;
-  color: #fff;
   padding: 10px;
-  text-align: center;
   bottom: 0;
 }
 
@@ -66,4 +61,13 @@ caption {
   font-weight: bold;
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+#caption-top {
+  padding-top: 10px;
+}
+
+.center {
+  color: whitesmoke;
+  text-align: center;
 }
