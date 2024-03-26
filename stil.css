@@ -14,9 +14,10 @@ p {
   border: 10px solid #ffcc99;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: Arial, sans-serif;
   color: whitesmoke;
+  margin: 10px;
 }
 
 a {
